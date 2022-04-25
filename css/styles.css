@@ -8,7 +8,7 @@
 }
 
 body { font-family: 'Roboto', sans-serif;}
-
+      
 .link-header{
     font-weight: 500;
     font-size: 14px;
@@ -21,10 +21,11 @@ body { font-family: 'Roboto', sans-serif;}
 .list{
     list-style: none;
 }
+
+.footer-logo,
 .header-logo,
 .header-link,
-.header-mail,
-.header-tel{
+.mail-tel{
     text-decoration: none;
 }
 
@@ -36,29 +37,32 @@ body { font-family: 'Roboto', sans-serif;}
     letter-spacing: 0.03em;
     color: var(--header-logo);
 }
+
 .logo-web{
     color: var(--hover-focus);
 }
+
 .header-link{
     color: var(--header-color);
 }
-.header-mail,
-.header-tel{
+
+.mail-tel{
     color: var(--text-color);
 }
-.header-mail:hover,
-.header-mail:focus,
-.header-tel:hover,
-.header-tel:focus,
+
+.mail-tel:hover,
+.mail-tel:focus,
 .header-link:hover,
 .header-link:focus{
         color: var(--hover-focus);
 }
 
     /* -------------HEROV------------------ */
-.main-herov{
+
+.herov-section{
     background: var(--background-color);
     }
+
 .herov-header{
     font-weight: 900;
     font-size: 44px;
@@ -68,7 +72,8 @@ body { font-family: 'Roboto', sans-serif;}
     text-transform: uppercase;
     color: var(--herov-color);
     }
-.herov-button{
+
+.herov-btn{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -82,16 +87,17 @@ body { font-family: 'Roboto', sans-serif;}
     background: var(--hover-focus);
 }
 
-/* -------------MAIN-SECTION------------------ */
+/* -------------ABOUT-SECTION------------------ */
 
-.main-header{
+.about-header{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-color);
     }
-.main-text{
+
+.about-text{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -100,14 +106,15 @@ body { font-family: 'Roboto', sans-serif;}
 
 /* -------------MAIN-IMG-TEAM----------------- */
 
-.imeges-header,
-.team-header{
+.about-business-header,
+.about-team-header{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--header-color);
     }
+
 .team-header-img{
     font-weight: 500;
     font-size: 16px;
@@ -116,7 +123,8 @@ body { font-family: 'Roboto', sans-serif;}
     letter-spacing: 0.03em;
     color: var(--header-color);
     }
-.team-text{
+
+.about-team-text{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -129,6 +137,7 @@ body { font-family: 'Roboto', sans-serif;}
 .footer-div{
     background: var(--background-color);
     }
+    
 .footer-address{
     font-family: 'Roboto';
     font-style: normal;
@@ -139,9 +148,18 @@ body { font-family: 'Roboto', sans-serif;}
     color: var(--herov-color);
 }
 
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--herov-color);
+}
+
 /* -------------PORTFOLIO------------------ */
 
-.portfolio-button{
+.portfolio-btn{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -150,18 +168,20 @@ body { font-family: 'Roboto', sans-serif;}
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
-.portfolio-button:hover,
-.portfolio-button:focus{
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
     color: var(--herov-color);
     background-color: var(--hover-focus);
-   
 }
+
 .portfolio-img-header{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--header-color);
     }
+
 .portfolio-img-text{
     font-size: 16px;
     line-height: 1.88;
