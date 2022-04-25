@@ -1,0 +1,170 @@
+:root{
+    --header-color:#212121;
+    --hover-focus:#2196F3;
+    --herov-color:#FFFFFF;
+    --header-logo:#000000;
+    --text-color:#757575;
+    --background-color: #2F303A;
+}
+
+body { font-family: 'Roboto', sans-serif;}
+
+.link-header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/*----------------HEADER--------------*/
+
+.list{
+    list-style: none;
+}
+.header-logo,
+.header-link,
+.header-mail,
+.header-tel{
+    text-decoration: none;
+}
+
+.header-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--header-logo);
+}
+.logo-web{
+    color: var(--hover-focus);
+}
+.header-link{
+    color: var(--header-color);
+}
+.header-mail,
+.header-tel{
+    color: var(--text-color);
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-link:hover,
+.header-link:focus{
+        color: var(--hover-focus);
+}
+
+    /* -------------HEROV------------------ */
+.main-herov{
+    background: var(--background-color);
+    }
+.herov-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--herov-color);
+    }
+.herov-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--herov-color);
+    background: var(--hover-focus);
+}
+
+/* -------------MAIN-SECTION------------------ */
+
+.main-header{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-color);
+    }
+.main-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    }
+
+/* -------------MAIN-IMG-TEAM----------------- */
+
+.imeges-header,
+.team-header{
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    }
+.team-header-img{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    }
+.team-text{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+    }
+
+/* -------------FOOTER------------------ */
+
+.footer-div{
+    background: var(--background-color);
+    }
+.footer-address{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--herov-color);
+}
+
+/* -------------PORTFOLIO------------------ */
+
+.portfolio-button{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--herov-color);
+    background-color: var(--hover-focus);
+   
+}
+.portfolio-img-header{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--header-color);
+    }
+.portfolio-img-text{
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
